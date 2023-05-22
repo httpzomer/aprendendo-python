@@ -13,7 +13,7 @@ while salario < 0:
 
 sexo = str(input('F ou M\n'))
 while sexo != 'F' and sexo != 'M':
-    sexo = str(input('Insira um genêro válido\n'))
+    sexo = str(input('Insira M para masculino e F para feminino\n'))
 
 
 estado = str(input('Solteiro, Divorciado, Casado ou Viuvo\n'))
